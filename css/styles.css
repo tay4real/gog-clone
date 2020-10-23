@@ -48,6 +48,17 @@ body {
   font-weight: 700;
 }
 
+.banner {
+  background-position: center;
+  background-size: cover;
+  background-image: url("../assets/tile_v.jpg");
+  border-bottom: 2px solid blue;
+}
+
+.banner-shadow {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
 @media (min-width: 768px) {
   .divider {
     border-left: 1px solid grey;
