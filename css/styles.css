@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+
+body {
+  background: #d8d8d8;
+  font-family: "Lato", sans-serif;
+  font-size: 100%;
+  font-weight: 400;
+  /* line-height: 1;
+  letter-spacing: 0; */
+}
+
+.section-title {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.purple {
+  background-color: purple;
+  color: white;
+}
+
+.carousel-indicators {
+  right: 0;
+  left: 0;
+  transform: translateY(3.3rem);
+}
+
+.carousel-indicators li {
+  background-color: purple;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  border-radius: 50%;
+}
+
+.icon-control {
+  border: 2px solid #d8d8d8;
+  background-color: grey;
+}
+
+.image-fit {
+  object-fit: cover;
+}
+
+.tool-tip {
+  color: #86328a;
+  font-weight: 700;
+}
+
+@media (min-width: 768px) {
+  .divider {
+    border-left: 1px solid grey;
+  }
+}
+
+@media (max-width: 576px) {
+  .divider {
+    border-top: 1px solid grey;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+}
